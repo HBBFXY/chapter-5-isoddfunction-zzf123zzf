@@ -10,4 +10,5 @@ def isOdd(value):
     """
     # 学生实现代码区域
     # 提示：首先检查类型是否为整数，然后检查奇偶性
-    
+    def isOdd(param):
+    return param is not True and isinstance(param, int) and param % 2 != 0
